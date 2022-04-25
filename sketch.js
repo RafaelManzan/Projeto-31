@@ -49,7 +49,7 @@ function setup() {
   for (var i = 0; i <= 8; i++) {
     var x = random(width / 2 - 200, width / 2 + 300);
     var y = random(-100, 100);
-    var stone = new Stone(x, y, 80, 80);
+    var stone = new Stone(x, y, 45,45);
     stones.push(stone);
   }
 
@@ -58,7 +58,7 @@ function setup() {
   zombie.addAnimation("righttoleft", zombie3, zombie4, zombie3);
   zombie.addImage("sad", sadzombie);
 
-  zombie.scale = 0.1;
+  zombie.scale = 0.07;
   zombie.velocityX = 10;
 
   breakButton = createButton("");
