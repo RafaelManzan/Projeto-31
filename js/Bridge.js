@@ -3,7 +3,7 @@ class Bridge {
     this.nlink = nlink;
     this.image = loadImage("assets/wood.png");
     const group = Body.nextGroup(true);
-    const rects = Composites.stack(100, 100, this.nlink, 1, 5, 5, function(
+    const rects = Composites.stack(70, 70, this.nlink, 1, 5, 5, function(
       x,
       y
     ) {
